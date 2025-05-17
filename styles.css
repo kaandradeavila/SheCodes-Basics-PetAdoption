@@ -1,0 +1,121 @@
+body {
+        background: #a1f480;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        background: #591fce;
+        color: #f4f4ec;
+        padding: 30px;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        text-align: center;
+        background: #591fce;
+        color: #f4f4ec;
+        padding: 20px 0;
+        margin: 20px auto;
+        border-radius: 10px;
+        text-transform: uppercase;
+      }
+
+      hr {
+        max-width: 100px;
+        margin: 25px auto;
+      }
+
+      h3 {
+        text-align: center;
+        background: #0c9cee;
+        padding: 10px 0;
+        margin: 20px auto;
+        border-radius: 30px;
+      }
+
+      h4 {
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 10px;
+        border: 2px dashed #0c9cee;
+        max-width: 100px;
+        margin: 20px auto;
+        padding: 5px;
+      }
+
+      img {
+        display: block;
+        margin: 20px auto;
+        max-width: 400px;
+        border: 3px solid #0c9cee;
+        border-radius: 5px;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #0c9cee;
+        border-radius: 30px;
+        background: #0c9cee;
+        color: #f4f4ec;
+        padding: 10px 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background: #3dbdc2;
+        border: 1px solid #3dbdc2;
+        color: #000;
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .adoption-description {
+        text-align: justify;
+        padding: 0 30px;
+        line-height: 1.5;
+      }
+      .learn-more {
+        margin-bottom: 30px;
+        padding: 0 30px;
+      }
+      .learn-more-link {
+        text-decoration: none;
+        color: #591fce;
+      }
+      .learn-more-link:hover {
+        text-decoration: underline;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      .pet-story {
+        text-align: justify;
+        background-color: #3dbdc2;
+        padding: 20px;
+        border: 1px solid #0c9cee;
+        border-radius: 50px;
+        margin: 30px auto;
+        line-height: 1.5;
+      }
+      .ready-to-adopt {
+        background: #a1f480;
+      }
+      .developer {
+        text-align: center;
+        background: #591fce;
+        color: #f4f4ec;
+        padding: 30px;
+        margin-top: 50px;
+      }
+      .developer-link {
+        text-decoration: none;
+        color: #0c9cee;
+      }
+      .developer-link:hover {
+        text-decoration: underline;
+      }
